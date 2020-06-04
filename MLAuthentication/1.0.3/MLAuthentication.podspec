@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Christian Biancucci" => "christian.biancucci@mercadolibre.com" }
   s.source           = { :http => 'https://mercadolibre.bintray.com/ios-releases/MLAuthenticationPod/' + s.version.to_s + '/MLAuthenticationPod-' + s.version.to_s + '.zip' }
-  s.nmae    		 = 'MLAuthenticationPod'
+  s.module_name  		 = 'MLAuthenticationPod'
 
   s.platform     = :ios, '10.0'
   s.requires_arc = true
