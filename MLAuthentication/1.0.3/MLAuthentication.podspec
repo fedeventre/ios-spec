@@ -17,6 +17,12 @@ Pod::Spec.new do |s|
     framework.dependency 'MLCommons', '~> 1.8'
     framework.dependency 'MLSecurity', '~> 1.0'
   end
+
+  s.subspec "MercadoPago" do |framework|
+
+    framework.dependency 'MLAuthentication/Vendored'
+
+  end
 end
 
 
