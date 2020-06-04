@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.subspec "Vendored" do |framework|
-    framework.vendored_framework = 'MLAuthentication.framework'
+    framework.vendored_framework = 'MLAuthenticationPod/MLAuthentication.framework'
     framework.dependency 'MLCommons', '~> 1.8'
     framework.dependency 'MLSecurity', '~> 1.0'
   end
