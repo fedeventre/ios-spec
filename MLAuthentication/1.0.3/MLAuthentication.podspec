@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://www.mercadolibre.com"
   s.license          = 'MIT'
   s.author           = { "Christian Biancucci" => "christian.biancucci@mercadolibre.com" }
-  s.source           = { :http => 'https://mercadolibre.bintray.com/ios-releases/MLAuthenticationPod/' + s.version.to_s + '/MLAuthenticationPod-' + s.version.to_s + '.zip' }
+  s.source           = { :http => 'https://mercadolibre.bintray.com/ios-releases/MLAuthenticationPod-1.0.3.zip'}
   s.module_name  		 = 'MLAuthenticationPod'
 
   s.platform     = :ios, '10.0'
