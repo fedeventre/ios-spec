@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec "MercadoPago" do |framework|
-
+    framework.vendored_framework = 'MLAuthenticationPod/MLAuthenticationMercadoPago.framework'
     framework.dependency 'MLAuthentication/Vendored'
 
   end
