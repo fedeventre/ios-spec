@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec "Debug" do |debug|
-    debug.source_files = 'MLAuthenticationPod/LibraryComponents/*.{h,m}'
+    debug.source_files = 'MLAuthenticationPod/**/*.{h,m}'
 
     debug.dependency 'MLCommons/Core', '~> 1.8'
     debug.dependency 'MLSecurity', '~> 1.0'
