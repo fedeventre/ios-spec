@@ -1,4 +1,3 @@
-load "module_version.rb"
 
 Pod::Spec.new do |s|
   s.name             = 'InStoreCore'
